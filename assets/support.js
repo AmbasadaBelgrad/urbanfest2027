@@ -70,7 +70,7 @@
       const selectedTopic = String(data.get("topic") || "");
       const category = topic.options[topic.selectedIndex]?.textContent?.trim() || "Support";
       // Formspree uses the "email" field for Reply-To. Telegram usernames remain in "contact".
-      if (/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(contact)) {
+      if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact)) {
         data.set("email", contact);
       }
       data.set("subject", "UrbanFest 2027: " + category);
