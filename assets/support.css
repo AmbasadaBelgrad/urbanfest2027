@@ -1,0 +1,49 @@
+/* UrbanFest 2027: partnerships and support section */
+.uf-support{background:var(--ink);color:var(--paper)}
+.uf-support .uf-eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 26px}
+.uf-support-top{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(285px,.65fr);gap:clamp(28px,5vw,76px);align-items:stretch;margin-bottom:26px}
+.uf-support-intro{min-width:0}
+.uf-support h2{font-size:clamp(44px,5.5vw,88px);letter-spacing:-.065em;line-height:.98;text-transform:none;max-width:930px}
+.uf-support h2 span{color:var(--lilac)}
+.uf-support-lead{font-size:clamp(16px,1.5vw,20px);line-height:1.48;font-weight:300;max-width:680px;margin:28px 0 0}
+.uf-budget{background:var(--lilac);color:var(--ink);border-radius:22px;padding:clamp(22px,2.5vw,38px);display:flex;flex-direction:column;justify-content:space-between;gap:22px;min-width:0}
+.uf-budget-label{font-size:12px;text-transform:uppercase;letter-spacing:.07em}
+.uf-budget strong{font-size:clamp(41px,4vw,64px);line-height:1;letter-spacing:-.07em;font-weight:500;display:block;margin:20px 0}
+.uf-budget p{font-size:13px;line-height:1.5;margin:0}
+.uf-budget-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:22px}
+.uf-budget-tags span{border:1px solid rgba(38,17,35,.38);padding:7px 10px;border-radius:999px;font-size:11px}
+.uf-support-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:30px}
+.uf-support-option{border-radius:22px;padding:clamp(22px,2.5vw,34px);min-height:310px;display:flex;flex-direction:column;gap:18px;min-width:0}
+.uf-support-option:nth-child(1){background:var(--paper);color:var(--ink)}
+.uf-support-option:nth-child(2){background:var(--blue);color:var(--ink)}
+.uf-support-option:nth-child(3){background:var(--red);color:var(--white)}
+.uf-option-index{font-size:12px;letter-spacing:.08em;opacity:.8}
+.uf-support-option h3{font-size:clamp(26px,2.55vw,38px);letter-spacing:-.06em;line-height:1.05;font-weight:400;margin:0}
+.uf-support-option p{font-size:14px;line-height:1.5;margin:0;max-width:360px}
+.uf-option-link{margin-top:auto;display:inline-flex;align-items:center;gap:12px;width:fit-content;max-width:100%;border-bottom:1px solid currentColor;padding:4px 0;text-decoration:none;font-size:13px;font-weight:500}
+.uf-option-link:hover{opacity:.75}
+.uf-option-link:focus-visible{outline:3px solid currentColor;outline-offset:5px}
+.uf-support-contact{background:var(--paper);color:var(--ink);border-radius:24px;padding:clamp(24px,4vw,52px);display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:clamp(30px,5vw,82px);align-items:start;margin-top:24px;scroll-margin-top:92px}
+.uf-contact-intro h3{font-size:clamp(32px,3.6vw,54px);line-height:1.05;letter-spacing:-.055em;font-weight:400;margin:0 0 22px}
+.uf-contact-intro p{font-size:15px;line-height:1.5;color:var(--plum);margin:0 0 24px;max-width:320px}
+.uf-contact-intro .uf-direct-email{font-size:14px;text-underline-offset:4px;overflow-wrap:anywhere}
+.uf-contact-form{min-width:0}
+.uf-contact-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.uf-contact-field{display:flex;flex-direction:column;gap:8px;min-width:0}
+.uf-contact-field span{font-size:12px;font-weight:500}
+.uf-contact-field input,.uf-contact-field select,.uf-contact-field textarea{display:block;width:100%;max-width:100%;border:1px solid rgba(38,17,35,.3);border-radius:10px;background:var(--white);color:var(--ink);padding:13px 15px;font:400 14px/1.4 "Geologica",Arial,sans-serif}
+.uf-contact-field textarea{min-height:125px;resize:vertical}
+.uf-contact-field input:focus,.uf-contact-field select:focus,.uf-contact-field textarea:focus{outline:2px solid var(--red);outline-offset:2px}
+.uf-contact-field input::placeholder,.uf-contact-field textarea::placeholder{color:#736873}
+.uf-contact-field-wide{grid-column:1/-1}
+.uf-contact-form-bottom{margin-top:18px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px}
+.uf-contact-submit{background:var(--red);color:white;border:0;border-radius:999px;min-height:48px;padding:0 22px;font:500 13px/1.2 "Geologica",Arial,sans-serif;cursor:pointer}
+.uf-contact-submit:hover{background:var(--ink)}
+.uf-contact-submit:focus-visible{outline:3px solid var(--red);outline-offset:4px}
+.uf-contact-hint{font-size:12px;line-height:1.45;color:var(--plum);max-width:340px;margin:0}
+.uf-contact-status{font-size:13px;line-height:1.5;margin:12px 0 0;color:var(--plum)}
+.uf-support .uf-support-end{border-top:1px solid rgba(247,231,222,.2);padding-top:18px;margin:30px 0 0;font-size:12px;color:var(--lilac);line-height:1.5}
+.uf-footer-support-link{display:inline-block;margin-top:6px}
+@media(max-width:1080px){.uf-support-top{grid-template-columns:minmax(0,1fr) minmax(265px,.8fr)}.uf-support-contact{grid-template-columns:1fr;gap:26px}.uf-contact-intro p{max-width:660px}}
+@media(max-width:820px){.uf-support-top{grid-template-columns:1fr}.uf-budget{max-width:none}.uf-budget strong{margin:8px 0}.uf-support-options{grid-template-columns:1fr}.uf-support-option{min-height:230px}.uf-support-option p{max-width:600px}}
+@media(max-width:560px){.uf-support h2{font-size:clamp(40px,11vw,60px)}.uf-support-lead{font-size:17px}.uf-budget strong{font-size:clamp(38px,10vw,58px)}.uf-contact-fields{grid-template-columns:1fr}.uf-support-contact{padding:22px 18px}.uf-support-option{min-height:235px}.uf-contact-form-bottom{align-items:stretch;flex-direction:column}.uf-contact-submit{width:100%}}
