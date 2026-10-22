@@ -1,0 +1,20 @@
+/* UrbanFest: Figma visual refresh, stage 1.
+   Palette verified against Maria's Figma design (section#about, node 1:455).
+   Only the About section is restyled in this stage; global colors and actions stay unchanged.
+*/
+:root{
+  --figma-navy:#273053;
+  --figma-indigo:#374375;
+  --figma-lavender:#BABDE2;
+  --figma-blush:#DFAEA1;
+  --figma-rose:#895159;
+  --figma-wine:#753743;
+  --figma-ivory:#FFFCF5;
+}
+#about{
+  background:var(--figma-ivory);
+  color:var(--figma-navy);
+}
+#about .about-copy + p{
+  color:var(--figma-navy);
+}
