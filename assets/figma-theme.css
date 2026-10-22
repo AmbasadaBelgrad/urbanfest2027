@@ -1,6 +1,6 @@
-/* UrbanFest: Figma visual refresh, stage 1.
-   Palette verified against Maria's Figma design (section#about, node 1:455).
-   Only the About section is restyled in this stage; global colors and actions stay unchanged.
+/* UrbanFest: Maria's original Figma Qf04EPsEWGpFUEGN1qFoGF, frame 1:399.
+   Color/readability stage only: retain content, images, decoration and layout.
+   Keep legacy root tokens intact; use explicit theme tokens for page surfaces.
 */
 :root{
   --figma-navy:#273053;
@@ -11,10 +11,81 @@
   --figma-wine:#753743;
   --figma-ivory:#FFFCF5;
 }
-#about{
+body,header,.workshops,#about,.organizers{
   background:var(--figma-ivory);
   color:var(--figma-navy);
 }
-#about .about-copy + p{
+/* Main frames: hero 1:525, speakers 1:556, history 1:635, footer 1:805. */
+.hero,.venue,.register{background:var(--figma-lavender);color:var(--figma-navy)}
+.hero-title span:last-child{color:var(--figma-navy)}
+.hero-year{color:var(--figma-ivory);text-shadow:0 1px 4px var(--figma-navy)}
+.red-orbit{background:var(--figma-rose)}
+.lilac-orbit{background:var(--figma-ivory);color:var(--figma-navy)}
+.chip{border-color:var(--figma-navy);font-size:13px;line-height:1.4}
+.marquee,.speaker-section{background:var(--figma-indigo);color:var(--figma-ivory)}
+.person p{color:var(--figma-ivory);font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.person h3{line-height:1.2;overflow-wrap:anywhere}
+.person{min-width:0}
+.status-chip{font-size:13px;line-height:1.4;letter-spacing:.02em;max-width:100%;overflow-wrap:anywhere}
+.history{background:var(--figma-blush);color:var(--figma-navy)}
+.history h2{color:var(--figma-navy)}
+.stat strong{color:var(--figma-wine)}
+.stats,.stat,.names,.name-row{border-color:var(--figma-rose)}
+.past-speakers-head p,.name-row span{color:var(--figma-navy)}
+.name-row em{color:var(--figma-navy)}
+.archive-card{background:var(--figma-rose);color:var(--figma-ivory)}
+.photo-wall{grid-template-rows:250px 250px minmax(270px,auto)}
+.archive-card a{white-space:normal;overflow-wrap:anywhere;line-height:1.5}
+.edition{background:var(--figma-ivory);color:var(--figma-navy)}
+.edition:nth-child(2){background:var(--figma-lavender)}
+.edition:nth-child(3){background:var(--figma-wine);color:var(--figma-ivory)}
+/* Workshop cards 1:425 / 1:435 / 1:445. */
+.workshop{background:var(--figma-lavender);color:var(--figma-navy);gap:24px;min-width:0}
+.workshop:nth-child(2){background:var(--figma-indigo);color:var(--figma-ivory)}
+.workshop:nth-child(3){background:var(--figma-navy);color:var(--figma-ivory)}
+.workshops .intro-note,.intro-note,.venue-note,.venue-note strong,.map-attribution,
+.venue-map,.map-caption span:last-child,.org-card p,#about .about-copy + p{
   color:var(--figma-navy);
+}
+.org-card,.venue-map{background:var(--figma-ivory);color:var(--figma-navy)}
+.contact-card{border-color:var(--figma-navy);min-width:0}
+.langs a.active,footer{background:var(--figma-navy);color:var(--figma-ivory)}
+.foot a{color:var(--figma-lavender)}
+.pill,.hero-register-label,.register .pill{background:var(--figma-wine);color:var(--figma-ivory)}
+.pill:hover,.hero-register:hover .hero-register-label,.register .pill:hover{background:var(--figma-navy);color:var(--figma-ivory)}
+.pill.alt{background:var(--figma-lavender);color:var(--figma-navy)}
+.pill:focus-visible,.hero-register:focus-visible{outline:3px solid var(--figma-navy);outline-offset:5px;border-radius:999px}
+/* Captions and supporting text: readable sizes without changing the typeface. */
+nav a,.langs,.small,.section-label,.format-list,.stat span,.archive-card a,
+.name-row span,.name-row em,.edition a,.org-links a,.contact-card a,.contact-card span,
+.map-caption,.foot div:last-child{font-size:14px;line-height:1.5}
+.workshop p,.org-card p{font-size:16px;line-height:1.5}
+.workshop small{font-size:14px;line-height:1.5}
+.map-attribution{font-size:13px;line-height:1.5}
+.contact-card a{overflow-wrap:anywhere}
+.intro-grid>*,.about-layout>*,.organizers-layout>*{min-width:0}
+.intro-grid h2,.about-layout h2{font-size:clamp(44px,6.5vw,88px);overflow-wrap:anywhere}
+html[lang="ru"] .about-layout h2{font-size:clamp(40px,5vw,72px)}
+/* The support section has no source frame: reuse verified palette locally. */
+.uf-support{
+  --ink:var(--figma-navy);--plum:var(--figma-indigo);--paper:var(--figma-ivory);
+  --lilac:var(--figma-lavender);--blue:var(--figma-lavender);
+  --red:var(--figma-wine);--white:var(--figma-ivory);
+}
+.uf-support .uf-eyebrow,.uf-budget-label,.uf-budget-tags span,.uf-option-index,
+.uf-contact-field span,.uf-contact-hint,.uf-support .uf-support-end{font-size:14px;line-height:1.5}
+.uf-budget p,.uf-option-link,.uf-contact-submit,.uf-contact-status{font-size:15px;line-height:1.5}
+.uf-contact-field input,.uf-contact-field select,.uf-contact-field textarea{font-size:16px}
+@media(max-width:1100px){nav{gap:16px}.head{grid-template-columns:160px 1fr auto;gap:16px}}
+@media(max-width:900px){
+  .head{grid-template-columns:1fr auto}
+  .photo-wall{grid-template-rows:300px 220px 220px minmax(270px,auto)}
+}
+@media(max-width:560px){
+  h2,.intro-grid h2,.about-layout h2{font-size:clamp(40px,10vw,56px)}
+  .status-chip{padding:6px 8px;text-transform:none;letter-spacing:0}
+  .person p{font-size:13px}
+  .lilac-orbit{font-size:13px;line-height:1.25}
+  .contact-card a{text-transform:none}
+  .workshop h3{overflow-wrap:anywhere}
 }
