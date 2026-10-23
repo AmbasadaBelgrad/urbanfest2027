@@ -41,8 +41,8 @@ body,header,.workshops,#about,.organizers{
 .edition:nth-child(3){background:var(--figma-wine);color:var(--figma-ivory)}
 /* Workshop cards 1:425 / 1:435 / 1:445. */
 .workshop{background:var(--figma-lavender);color:var(--figma-navy);gap:24px;min-width:0}
-.workshop:nth-child(2){background:var(--figma-indigo);color:var(--figma-ivory)}
-.workshop:nth-child(3){background:var(--figma-navy);color:var(--figma-ivory)}
+.workshop:nth-child(3n + 2){background:var(--figma-indigo);color:var(--figma-ivory)}
+.workshop:nth-child(3n){background:var(--figma-navy);color:var(--figma-ivory)}
 .workshops .intro-note,.intro-note,.venue-note,.venue-note strong,.map-attribution,
 .venue-map,.map-caption span:last-child,.org-card p,#about .about-copy + p{
   color:var(--figma-navy);
