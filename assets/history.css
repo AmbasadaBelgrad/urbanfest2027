@@ -1,0 +1,18 @@
+/* Compact history, based on Maria’s frame 1:637; statistics omitted by request. */
+#history{scroll-margin-top:72px}
+#history .history-top{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:start;gap:clamp(32px,5vw,70px);margin-bottom:38px}
+#history .history-top>*{min-width:0}
+#history .ph img{position:absolute;inset:0}
+#history .history-copy{max-width:560px}
+#history .history-copy p{margin:0;font-weight:400;line-height:1.55}
+#history .history-copy p+p{margin-top:14px}
+@media(max-width:900px){
+  #history .history-top{grid-template-columns:1fr;gap:26px;margin-bottom:32px}
+  #history .history-copy{max-width:640px}
+}
+@media(max-width:560px){
+  #history{scroll-margin-top:62px}
+  #history .history-top{gap:24px;margin-bottom:28px}
+  #history .history-top h2{font-size:clamp(38px,10vw,56px)}
+  #history .history-copy p{font-size:17px}
+}
