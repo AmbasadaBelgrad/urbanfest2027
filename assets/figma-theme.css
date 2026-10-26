@@ -112,3 +112,8 @@ html[lang="ru"] .about-layout h2{font-size:clamp(40px,5vw,72px)}
 @media(max-width:560px){
   .about-layout h2,html[lang="ru"] .about-layout h2{font-size:clamp(36px,9vw,48px)}
 }
+
+/* About: Instagram is a text link, consistent with the surrounding copy. */
+.about-instagram{font-size:16px;line-height:1.5;text-underline-offset:4px}
+.about-instagram:hover{text-decoration-thickness:2px}
+.about-instagram:focus-visible{outline:2px solid currentColor;outline-offset:4px}
