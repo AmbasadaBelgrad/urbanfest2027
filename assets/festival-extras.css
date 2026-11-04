@@ -1,0 +1,18 @@
+/* UrbanFest 2027: event extras and robust portraits. November content update. */
+.circle.portrait-frame{position:relative;padding:0;isolation:isolate;background:#babde2;color:#273053}
+.portrait-frame .portrait-fallback{position:absolute;inset:0;display:grid;place-items:center;font-size:clamp(36px,4vw,70px);font-weight:500;line-height:1;letter-spacing:-.05em;color:#273053}
+.portrait-frame .speaker-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%;z-index:1;filter:saturate(.78) contrast(.97)}
+.festival-extras-section{background:#fffcf5;color:#273053;padding:80px 0 90px}
+.festival-extras-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.65fr);gap:28px 65px;align-items:end;margin-bottom:44px}
+.festival-extras-kicker{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:20px}
+.festival-extras-title{font-size:clamp(42px,5.5vw,78px);line-height:1.04;letter-spacing:-.055em;font-weight:400;margin:0}
+.festival-extras-intro{font-size:clamp(16px,1.5vw,19px);line-height:1.5;margin:0;max-width:460px}
+.festival-extras-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid rgba(39,48,83,.32)}
+.festival-extras-item{padding:22px 22px 8px 0;min-width:0;border-right:1px solid rgba(39,48,83,.18)}
+.festival-extras-item:not(:first-child){padding-left:22px}
+.festival-extras-item:last-child{border-right:0}
+.festival-extras-index{display:block;font-size:12px;line-height:1.2;margin-bottom:20px;color:#753743}
+.festival-extras-item h3{font-size:clamp(20px,2vw,28px);line-height:1.15;letter-spacing:-.035em;font-weight:400;margin:0 0 10px}
+.festival-extras-item p{font-size:14px;line-height:1.5;margin:0;max-width:260px}
+@media(max-width:850px){.festival-extras-head{grid-template-columns:1fr;gap:18px}.festival-extras-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.festival-extras-item:nth-child(2){border-right:0}.festival-extras-item:nth-child(n+3){border-top:1px solid rgba(39,48,83,.18)}.festival-extras-item:nth-child(3){padding-left:0}}
+@media(max-width:520px){.festival-extras-section{padding:56px 0 66px}.festival-extras-head{margin-bottom:28px}.festival-extras-grid{grid-template-columns:1fr}.festival-extras-item{border-right:0!important;border-top:1px solid rgba(39,48,83,.18);padding:18px 0 20px!important}.festival-extras-item:first-child{border-top:0}.festival-extras-index{margin-bottom:12px}.festival-extras-item p{max-width:none}}
