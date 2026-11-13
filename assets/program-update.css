@@ -14,3 +14,6 @@
 #workshops .workshop-credit{display:block;margin-top:5px;font-size:11px}
 #workshops .workshop-credit a{text-underline-offset:2px}
 @media(max-width:560px){#speakers .talk-title{font-size:15px}#speakers .speaker-talk{margin-top:16px;padding-top:12px}}
+
+/* Keep the hand and restoration tool visible in the portrait source. */
+#workshops .workshop-figure .restoration-photo{object-position:center 65%}

@@ -25,3 +25,13 @@ Speaker CRM tabs “Спикеры”, “Для сайта”, “Воркшо�
 `partisanpress-inking.jpg`: user-supplied original `nd-1836.jpg`, 900 × 600. User identified it as Partisanpress material and explicitly requested publication in the workshop card. JPEG optimized; no generative edits. Shows red ink applied with a roller to wooden type. Not represented as a photograph of UrbanFest 2027. Photographer/credit not supplied; no Creative Commons or other open licence is asserted. Both originals are retained in the local site-materials/workshops/originals collection; the second (`02-nd-1776.4773b18c0b856d0e50cbb429a8a1dba4.jpg`) is not published in the card.
 
 The earlier neutral Adana example, mental-map example and KUNGFUCT portrait were removed from all workshop cards at the user’s request. Only the newly supplied Partisanpress process photo is displayed by this update.
+
+
+## Supplied restoration and urban-intervention photos — 13 November 2026
+
+Published at the user’s explicit request:
+
+- `restoration-process.jpg`: supplied original `2026-11-13 11.28.44.jpg`, showing restoration of architectural plasterwork. Retained locally without changes; web derivative resized to 750 × 1000. CSS display crop focuses on the hand and tool.
+- `urban-interventions-wall.jpg`: supplied original `untitled-2.jpg`, 700 × 467. Labelled as an example of an urban intervention in EN/SR/RU. The photographer, artwork author and external reuse licence are not established; no attribution to KUNGFUCT or open licence is claimed. Supplied and approved for publication by the user.
+
+Neither photograph is represented as documenting the future UrbanFest 2027 workshop. Partisanpress’s supplied printing-process photo remains displayed. No images have been added to the other workshop cards.
