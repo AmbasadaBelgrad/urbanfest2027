@@ -35,3 +35,14 @@ Published at the user’s explicit request:
 - `urban-interventions-wall.jpg`: supplied original `untitled-2.jpg`, 700 × 467. Labelled as an example of an urban intervention in EN/SR/RU. The photographer, artwork author and external reuse licence are not established; no attribution to KUNGFUCT or open licence is claimed. Supplied and approved for publication by the user.
 
 Neither photograph is represented as documenting the future UrbanFest 2027 workshop. Partisanpress’s supplied printing-process photo remains displayed. No images have been added to the other workshop cards.
+
+
+## Archive photographs added to remaining workshop cards — 13 November 2026
+
+Source: UrbanFest Belgrade, September 2024, Google Drive album [@starostin_nikita_photo](https://drive.google.com/drive/folders/105caxBAWKpPar6Fn2WGM3rcvKM_ps9LW). Originals downloaded from the connected event archive and retained locally. Web copies resized to 1100 × 732, without generative changes. Approved for publication by the user. All three have visible captions identifying them as a previous UrbanFest workshop, with the album credit; none are attributed to the named 2027 workshop hosts or presented as photographs of the future event. No open licence is asserted.
+
+| Local asset | Original source | Card |
+| --- | --- | --- |
+| archive-2024-planning.jpg | [DSC_4189.jpg](https://drive.google.com/file/d/1tKYP6n2CX1qawiE0Vih6thLZxyPogAwh/view) | Svetlana Kondratyeva / mental maps |
+| archive-2024-mapping.jpg | [DSC_4168.jpg](https://drive.google.com/file/d/112buEPgBbB0NBnGCaIPVtvX10epJRCpM/view) | Mikhail Domrachev / mapping |
+| archive-2024-drawing.jpg | [DSC_4183.jpg](https://drive.google.com/file/d/19ls6bCR3Cve3HF58_zGigH9obzug9jju/view) | Fedor Dokukin / drawing |
