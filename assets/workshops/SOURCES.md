@@ -18,3 +18,10 @@ Images are local to this repository. No photo is represented as a photograph of 
 ## Programme sources checked
 
 Speaker CRM tabs “Спикеры”, “Для сайта”, “Воркшопы” checked on 13 November. Oksana Zaporozhets supplied a newer English title and Humboldt University of Berlin affiliation on 10 November; these supersede the older CRM wording. Shishkin’s approved Russian title is preserved; translations are explicitly provisional. KUNGFUCT and Máté Sebők have no approved lecture titles. András Lukács is confirmed internally but photo/title/public announcement materials are still pending, so no new public card was added.
+
+
+## Partisanpress replacement — 13 November 2026
+
+`partisanpress-inking.jpg`: user-supplied original `nd-1836.jpg`, 900 × 600. User identified it as Partisanpress material and explicitly requested publication in the workshop card. JPEG optimized; no generative edits. Shows red ink applied with a roller to wooden type. Not represented as a photograph of UrbanFest 2027. Photographer/credit not supplied; no Creative Commons or other open licence is asserted. Both originals are retained in the local site-materials/workshops/originals collection; the second (`02-nd-1776.4773b18c0b856d0e50cbb429a8a1dba4.jpg`) is not published in the card.
+
+The earlier neutral Adana example, mental-map example and KUNGFUCT portrait were removed from all workshop cards at the user’s request. Only the newly supplied Partisanpress process photo is displayed by this update.
