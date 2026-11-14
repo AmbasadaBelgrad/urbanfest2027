@@ -137,3 +137,20 @@ html[lang="ru"] .about-layout h2{font-size:clamp(40px,5vw,72px)}
 @media(max-width:560px){
   .uf-support-contact{padding:24px 18px}
 }
+
+/* Keep the opening programme summary compact across languages. */
+.intro-section{padding:56px 0}
+.intro-grid{gap:clamp(32px,4vw,64px)}
+.intro-grid h2{font-size:clamp(36px,3.6vw,50px);line-height:1.08;overflow-wrap:normal;word-break:normal}
+.intro-grid .format-list{margin-top:24px;gap:10px 24px}
+.intro-grid .intro-text{font-size:22px;line-height:1.4;margin:0 0 22px}
+@media(max-width:900px){
+ .intro-section{padding:44px 0}
+ .intro-grid{gap:26px}
+}
+@media(max-width:560px){
+ .intro-section{padding:36px 0}
+ .intro-grid h2{font-size:clamp(32px,8.5vw,40px)}
+ .intro-grid .intro-text{font-size:20px;line-height:1.45}
+ .intro-grid .format-list{margin-top:20px}
+}
