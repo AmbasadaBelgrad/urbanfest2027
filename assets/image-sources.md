@@ -15,3 +15,8 @@ Public sources of existing site images restored on 2026-10-14. These are the sam
 
 Albert Sumin source page: https://parametric-architecture.com/bim-rhino-inside-for-modular-design/ . The original PNG is unavailable; the published 680 px derivative contains the same portrait. Converted to JPEG for site delivery.
 Konstantin Gladkov resized to 680 px; event photos retain their original 1680 px dimensions.
+
+
+## Alexey Shishkin portrait — 14 November 2026
+
+`alexey-shishkin-20261114.jpg`: user-supplied original `codex-clipboard-088eb4b6-c948-4d79-a89a-be67ac76a208.jpg`, 4090 × 6106. Original preserved locally under `site-materials/speakers/originals/`. Delivery image proportionally resized to 1607 × 2400. The speaker circle uses a scoped head-and-shoulders crop at 2.5× zoom, with approximately 643 source pixels across the visible crop for a maximum circle width of approximately 317 CSS pixels (sufficient for 2× displays). No generated facial details, retouching, or upscaling. Same crop and existing site colour treatment in EN/SR/RU.

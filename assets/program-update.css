@@ -17,3 +17,7 @@
 
 /* Keep the hand and restoration tool visible in the portrait source. */
 #workshops .workshop-figure .restoration-photo{object-position:center 65%}
+
+/* Portrait crop from the supplied high-resolution original: head and shoulders. */
+#speakers .circle:has(.shishkin-portrait){position:relative}
+#speakers .shishkin-portrait{position:absolute;inset:0;display:block;width:100%;height:100%;transform:scale(2.5);transform-origin:50% 50%;object-fit:cover;object-position:50% 50%}
