@@ -26,3 +26,7 @@
 #speakers .circle:has(.elvira-portrait){position:relative}
 #speakers .elvira-portrait{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center top}
 #speakers .speaker-initials{border-radius:50%;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:var(--figma-lavender);color:var(--figma-navy);font-size:clamp(32px,5vw,64px);font-weight:500;letter-spacing:-.04em}
+
+/* Corrected speaker-supplied portrait, 16 November 2026. */
+#speakers .circle:has(.mate-portrait){position:relative}
+#speakers .mate-portrait{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
