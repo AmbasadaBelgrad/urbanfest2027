@@ -34,8 +34,12 @@
 /* Two named portraits share the Kulturni Cerak programme card. */
 #speakers .cerak-portraits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:0 10px;width:100%;margin-bottom:18px}
 #speakers .cerak-portraits figure{display:contents}
-#speakers .cerak-portraits img{display:block;grid-row:1;width:128%;max-width:none;height:auto;aspect-ratio:1;object-fit:cover;object-position:center 42%;border-radius:50%;position:relative;border:3px solid var(--figma-indigo);box-sizing:border-box}\n#speakers .cerak-portraits figure:first-child img{grid-column:1;justify-self:start;z-index:1}\n#speakers .cerak-portraits figure:last-child img{grid-column:2;justify-self:end;margin-top:32%;z-index:2}
-#speakers .cerak-portraits figcaption{grid-row:2;margin-top:10px;font-size:13px;line-height:1.4;overflow-wrap:break-word}\n#speakers .cerak-portraits figure:first-child figcaption{grid-column:1}\n#speakers .cerak-portraits figure:last-child figcaption{grid-column:2}
+#speakers .cerak-portraits img{display:block;grid-row:1;width:128%;max-width:none;height:auto;aspect-ratio:1;object-fit:cover;object-position:center 42%;border-radius:50%;position:relative;border:3px solid var(--figma-indigo);box-sizing:border-box}
+#speakers .cerak-portraits figure:first-child img{grid-column:1;justify-self:start;z-index:1}
+#speakers .cerak-portraits figure:last-child img{grid-column:2;justify-self:end;margin-top:32%;z-index:2}
+#speakers .cerak-portraits figcaption{grid-row:2;margin-top:10px;font-size:13px;line-height:1.4;overflow-wrap:break-word}
+#speakers .cerak-portraits figure:first-child figcaption{grid-column:1}
+#speakers .cerak-portraits figure:last-child figcaption{grid-column:2}
 #speakers .circle:has(.gulnara-portrait){position:relative;background-image:url("/assets/gulnara-safarova-20261118.jpg");background-size:140% auto;background-position:60% top;background-repeat:no-repeat}
 #speakers .gulnara-portrait{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0}
 @media(max-width:560px){#speakers .cerak-portraits{gap:8px}#speakers .cerak-portraits figcaption{font-size:12px}}
