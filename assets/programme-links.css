@@ -4,5 +4,4 @@
 .programme-teaser a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 22px;border-radius:999px;background:var(--figma-wine);color:var(--figma-ivory);font-size:15px;line-height:1.4;text-decoration:none;text-align:center}
 .programme-teaser a:hover{background:var(--figma-navy)}
 .programme-teaser a:focus-visible{outline:3px solid var(--figma-navy);outline-offset:4px}
-@media(min-width:901px) and (max-width:1200px){.head{height:auto;min-height:72px;grid-template-columns:1fr auto}.head .brand{grid-column:1;grid-row:1;padding-top:12px}.head .langs{grid-column:2;grid-row:1;padding-top:12px}.head nav{grid-column:1/-1;grid-row:2;flex-wrap:wrap;gap:8px 22px;padding-bottom:12px}}
 @media(max-width:560px){.programme-teaser .wrap{align-items:flex-start;flex-direction:column;gap:12px}.programme-teaser p{font-size:14px}.programme-teaser a{font-size:14px}}
