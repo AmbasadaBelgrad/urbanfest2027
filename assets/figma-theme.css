@@ -154,3 +154,15 @@ html[lang="ru"] .about-layout h2{font-size:clamp(40px,5vw,72px)}
  .intro-grid .intro-text{font-size:20px;line-height:1.45}
  .intro-grid .format-list{margin-top:20px}
 }
+
+/* Main programme sections share one heading scale at every breakpoint. */
+:root{--uf-section-heading-size:clamp(52px,7vw,96px)}
+#speakers h2,#workshops h2,#volunteering h2,#extras .festival-extras-title{
+ font-size:var(--uf-section-heading-size);
+ line-height:.9;
+ letter-spacing:-.07em;
+ font-weight:400;
+}
+@media(max-width:560px){
+ :root{--uf-section-heading-size:clamp(40px,10vw,56px)}
+}
