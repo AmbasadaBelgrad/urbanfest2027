@@ -1,0 +1,41 @@
+.programme-page .event-wrap{width:min(1240px,calc(100% - 48px))}
+.programme-main{padding:36px 0 56px}
+.programme-title{font-size:clamp(48px,9vw,120px);font-weight:500;letter-spacing:-.065em;line-height:1.05;margin:0 0 26px;overflow-wrap:anywhere}
+.programme-facts{display:flex;flex-wrap:wrap;gap:8px 24px;margin:0 0 32px;font-size:14px;line-height:1.5}
+.programme-facts span{white-space:nowrap}
+.programme-layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:28px;align-items:start}
+.programme-timetable{min-width:0}
+.programme-heads,.programme-grid{display:grid;grid-template-columns:48px repeat(2,minmax(0,1fr));column-gap:8px}
+.programme-heads{margin-bottom:14px}
+.programme-hall{background:var(--event-blue);color:var(--event-paper);padding:14px 12px;min-width:0}
+.programme-hall h2{font-size:18px;line-height:1.2;font-weight:500;margin:0 0 7px}
+.programme-hall p{font-size:13px;line-height:1.5;margin:0}
+.programme-grid{grid-template-rows:repeat(14,minmax(132px,auto))}
+.programme-time{grid-column:1;align-self:start;font-size:13px;font-variant-numeric:tabular-nums;line-height:1.3;position:relative;top:-7px}
+.programme-event{background:var(--event-lilac);color:var(--event-ink);padding:14px 12px;margin:0 0 4px;min-width:0;overflow-wrap:anywhere;border-radius:3px}
+.programme-event h3{font-size:17px;line-height:1.3;font-weight:500;margin:0 0 9px}
+.programme-event p{font-size:14px;line-height:1.5;margin:0}
+.programme-event .programme-when{font-size:13px;line-height:1.4;font-variant-numeric:tabular-nums;margin:0 0 10px}
+.programme-event .programme-language{font-size:13px;line-height:1.5;margin:12px 0 0}
+.programme-event .programme-format{font-size:13px;margin:8px 0 16px}
+.programme-event--climate,.programme-event--common{background:var(--event-ink);color:var(--event-paper)}
+.programme-event--panel,.programme-event--volunteer{background:var(--event-blush)}
+.programme-event--common{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.programme-event--common .programme-when{margin:0;white-space:nowrap}
+.programme-event--common h3{font-size:16px;margin:0}
+.programme-event--volunteer h3{font-size:23px;line-height:1.2;margin:18px 0 22px}
+.programme-event--volunteer ul{font-size:15px;line-height:1.6;margin:28px 0;padding-left:20px}
+.programme-event--volunteer li{margin:0 0 18px}
+.programme-event--volunteer a{display:inline-block;font-size:14px;margin-top:18px}
+.programme-workshops{border-top:1px solid var(--event-ink);padding-top:14px;min-width:0}
+.programme-workshops h2{font-size:25px;font-weight:400;letter-spacing:-.035em;margin:0 0 12px}
+.programme-workshops>p{font-size:14px;line-height:1.6;margin:0 0 22px}
+.programme-workshop{border-top:1px solid var(--event-lilac);padding:18px 0}
+.programme-workshop h3{font-size:17px;line-height:1.35;font-weight:500;margin:0 0 10px}
+.programme-workshop p{font-size:14px;line-height:1.65;margin:7px 0}
+.programme-workshop strong{font-weight:700}
+.programme-workshop a{display:inline-block;font-size:14px;margin-top:8px}
+.programme-workshop .programme-signup{color:var(--event-wine)}
+.programme-note{font-size:13px;line-height:1.7;max-width:75ch;margin:28px 0 0}
+@media(max-width:850px){.programme-layout{grid-template-columns:1fr}.programme-workshops{margin-top:10px}.programme-workshop{display:grid;grid-template-columns:1fr 1.4fr;gap:6px 24px}.programme-workshop h3{grid-row:span 3}.programme-workshop p{margin:0}.programme-workshop a{grid-column:2}.programme-page .event-nav>a{display:inline}.programme-main{padding-top:28px}}
+@media(max-width:480px){.programme-page .event-wrap{width:calc(100% - 24px)}.programme-title{margin-bottom:22px}.programme-facts{font-size:13px;gap:7px 16px;margin-bottom:26px}.programme-heads,.programme-grid{grid-template-columns:36px repeat(2,minmax(0,1fr));column-gap:5px}.programme-hall{padding:12px 7px}.programme-hall h2{font-size:15px}.programme-hall p{font-size:12px}.programme-time{font-size:11px}.programme-event{padding:12px 7px}.programme-event h3{font-size:15px}.programme-event p{font-size:13px}.programme-event .programme-when,.programme-event .programme-language,.programme-event .programme-format{font-size:12px}.programme-event--common{gap:10px}.programme-event--common h3{font-size:14px}.programme-event--volunteer h3{font-size:19px}.programme-event--volunteer ul{font-size:13px;padding-left:16px}.programme-event--volunteer a{font-size:13px}.programme-workshop{grid-template-columns:1fr;gap:0}.programme-workshop h3{grid-row:auto}.programme-workshop p{margin:5px 0}.programme-workshop a{grid-column:auto}.programme-page .event-nav>a{font-size:13px}.programme-page .event-head{gap:10px}.programme-page .event-nav{gap:8px}.programme-page .event-brand{font-size:17px}.programme-page .event-langs a{min-width:30px;min-height:34px}}
