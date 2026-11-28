@@ -47,3 +47,6 @@
 /* Speaker-supplied Ivan Simic portrait, gently restored and cropped 23 November 2026. */
 #speakers .circle:has(.ivan-portrait){position:relative}
 #speakers .ivan-portrait{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+
+/* Speaker-supplied 401 × 357 portrait: preserve original detail without upscaling. */
+#speakers .andras-portrait{object-position:55% center}

@@ -586,5 +586,17 @@
       }
     ],
     "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/andras-lukacs-20261128.jpg": {
+    "original_bytes": 30282,
+    "variants": [
+      {
+        "src": "/assets/optimized/andras-lukacs-20261128-401.webp",
+        "width": 401,
+        "height": 357,
+        "bytes": 20514
+      }
+    ],
+    "sizes": "317px"
   }
 }
