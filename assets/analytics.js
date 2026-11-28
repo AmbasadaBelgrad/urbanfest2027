@@ -24,9 +24,10 @@
       destination.hostname === "docs.google.com" &&
       destination.pathname.includes("/forms/d/" + registrationFormId)
     ) {
-      const placement = link.closest(".hero") ? "hero" : link.closest(".register") ? "footer" : "other";
+      const placement = link.dataset.trackPlacement || (link.closest(".hero") ? "hero" : link.closest(".register") ? "footer" : "other");
       window.gtag("event", "registration_click", {
         button_location: placement,
+        page_language: document.documentElement.lang,
         link_url: destination.href
       });
     } else {

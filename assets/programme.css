@@ -3,6 +3,9 @@
 .programme-title{font-size:clamp(48px,9vw,120px);font-weight:500;letter-spacing:-.065em;line-height:1.05;margin:0 0 26px;overflow-wrap:anywhere}
 .programme-facts{display:flex;flex-wrap:wrap;gap:8px 24px;margin:0 0 32px;font-size:14px;line-height:1.5}
 .programme-facts span{white-space:nowrap}
+.programme-visit{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px 24px;padding:0 0 24px;margin-bottom:24px;border-bottom:1px solid var(--event-lilac)}
+.programme-venue{font-size:14px;line-height:1.6;text-underline-offset:4px;overflow-wrap:anywhere}
+.programme-visit .event-button{font-size:14px;padding:12px 20px}
 .programme-layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:28px;align-items:start}
 .programme-timetable{min-width:0}
 .programme-heads,.programme-grid{display:grid;grid-template-columns:48px repeat(2,minmax(0,1fr));column-gap:8px}

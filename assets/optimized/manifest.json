@@ -1,0 +1,590 @@
+{
+  "/assets/Photo-Jug-500x500.jpg": {
+    "original_bytes": 60254,
+    "variants": [
+      {
+        "src": "/assets/optimized/Photo-Jug-500x500-400.webp",
+        "width": 400,
+        "height": 400,
+        "bytes": 24746
+      },
+      {
+        "src": "/assets/optimized/Photo-Jug-500x500-500.webp",
+        "width": 500,
+        "height": 500,
+        "bytes": 37276
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/alexey-shishkin-20261114.jpg": {
+    "original_bytes": 881760,
+    "variants": [
+      {
+        "src": "/assets/optimized/alexey-shishkin-20261114-800.webp",
+        "width": 800,
+        "height": 1195,
+        "bytes": 69662
+      },
+      {
+        "src": "/assets/optimized/alexey-shishkin-20261114-1607.webp",
+        "width": 1607,
+        "height": 2400,
+        "bytes": 341166
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) * 1.25), (max-width: 1380px) calc((100vw - 110px) * .625), 793px"
+  },
+  "/assets/elvira-ibragimova-20261115.jpg": {
+    "original_bytes": 189060,
+    "variants": [
+      {
+        "src": "/assets/optimized/elvira-ibragimova-20261115-400.webp",
+        "width": 400,
+        "height": 533,
+        "bytes": 34366
+      },
+      {
+        "src": "/assets/optimized/elvira-ibragimova-20261115-800.webp",
+        "width": 800,
+        "height": 1067,
+        "bytes": 102802
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/gulnara-safarova-20261118.jpg": {
+    "original_bytes": 225569,
+    "variants": [
+      {
+        "src": "/assets/optimized/gulnara-safarova-20261118-400.webp",
+        "width": 400,
+        "height": 520,
+        "bytes": 15532
+      },
+      {
+        "src": "/assets/optimized/gulnara-safarova-20261118-800.webp",
+        "width": 800,
+        "height": 1040,
+        "bytes": 40132
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/hero-audience.jpg": {
+    "original_bytes": 341768,
+    "variants": [
+      {
+        "src": "/assets/optimized/hero-audience-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 32356
+      },
+      {
+        "src": "/assets/optimized/hero-audience-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 85488
+      },
+      {
+        "src": "/assets/optimized/hero-audience-1680.webp",
+        "width": 1680,
+        "height": 1117,
+        "bytes": 218990
+      }
+    ],
+    "sizes": "(max-width: 560px) 100vw, (max-width: 900px) 80vw, 850px"
+  },
+  "/assets/history-audience.jpg": {
+    "original_bytes": 433946,
+    "variants": [
+      {
+        "src": "/assets/optimized/history-audience-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 41482
+      },
+      {
+        "src": "/assets/optimized/history-audience-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 124944
+      },
+      {
+        "src": "/assets/optimized/history-audience-1680.webp",
+        "width": 1680,
+        "height": 1117,
+        "bytes": 308442
+      }
+    ],
+    "sizes": "(max-width: 560px) 100vw, (max-width: 900px) 80vw, 850px"
+  },
+  "/assets/history-participants.jpg": {
+    "original_bytes": 346798,
+    "variants": [
+      {
+        "src": "/assets/optimized/history-participants-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 32384
+      },
+      {
+        "src": "/assets/optimized/history-participants-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 91376
+      },
+      {
+        "src": "/assets/optimized/history-participants-1680.webp",
+        "width": 1680,
+        "height": 1117,
+        "bytes": 232070
+      }
+    ],
+    "sizes": "(max-width: 560px) 100vw, (max-width: 900px) 80vw, 850px"
+  },
+  "/assets/history-stage.jpg": {
+    "original_bytes": 357176,
+    "variants": [
+      {
+        "src": "/assets/optimized/history-stage-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29008
+      },
+      {
+        "src": "/assets/optimized/history-stage-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 86562
+      },
+      {
+        "src": "/assets/optimized/history-stage-1680.webp",
+        "width": 1680,
+        "height": 1120,
+        "bytes": 245048
+      }
+    ],
+    "sizes": "(max-width: 560px) 100vw, (max-width: 900px) 80vw, 850px"
+  },
+  "/assets/history-talk.jpg": {
+    "original_bytes": 455911,
+    "variants": [
+      {
+        "src": "/assets/optimized/history-talk-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 41294
+      },
+      {
+        "src": "/assets/optimized/history-talk-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 136850
+      },
+      {
+        "src": "/assets/optimized/history-talk-1680.webp",
+        "width": 1680,
+        "height": 1117,
+        "bytes": 359726
+      }
+    ],
+    "sizes": "(max-width: 560px) 100vw, (max-width: 900px) 80vw, 850px"
+  },
+  "/assets/history-workshop.jpg": {
+    "original_bytes": 265529,
+    "variants": [
+      {
+        "src": "/assets/optimized/history-workshop-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 25998
+      },
+      {
+        "src": "/assets/optimized/history-workshop-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 68388
+      },
+      {
+        "src": "/assets/optimized/history-workshop-1680.webp",
+        "width": 1680,
+        "height": 1120,
+        "bytes": 150572
+      }
+    ],
+    "sizes": "(max-width: 560px) 100vw, (max-width: 900px) 80vw, 850px"
+  },
+  "/assets/ilya-drigo.jpg": {
+    "original_bytes": 160097,
+    "variants": [
+      {
+        "src": "/assets/optimized/ilya-drigo-400.webp",
+        "width": 400,
+        "height": 400,
+        "bytes": 7278
+      },
+      {
+        "src": "/assets/optimized/ilya-drigo-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 20218
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/ivan-simic-20261123.jpg": {
+    "original_bytes": 447829,
+    "variants": [
+      {
+        "src": "/assets/optimized/ivan-simic-20261123-400.webp",
+        "width": 400,
+        "height": 400,
+        "bytes": 15504
+      },
+      {
+        "src": "/assets/optimized/ivan-simic-20261123-800.webp",
+        "width": 800,
+        "height": 800,
+        "bytes": 68242
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/konstantin-gladkov.jpg": {
+    "original_bytes": 113638,
+    "variants": [
+      {
+        "src": "/assets/optimized/konstantin-gladkov-400.webp",
+        "width": 400,
+        "height": 400,
+        "bytes": 20646
+      },
+      {
+        "src": "/assets/optimized/konstantin-gladkov-680.webp",
+        "width": 680,
+        "height": 680,
+        "bytes": 55624
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/mate-sebok-20261116.jpg": {
+    "original_bytes": 374076,
+    "variants": [
+      {
+        "src": "/assets/optimized/mate-sebok-20261116-400.webp",
+        "width": 400,
+        "height": 418,
+        "bytes": 18636
+      },
+      {
+        "src": "/assets/optimized/mate-sebok-20261116-800.webp",
+        "width": 800,
+        "height": 836,
+        "bytes": 76328
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/olivera-cerak-20261118.jpg": {
+    "original_bytes": 206710,
+    "variants": [
+      {
+        "src": "/assets/optimized/olivera-cerak-20261118-400.webp",
+        "width": 400,
+        "height": 602,
+        "bytes": 23648
+      },
+      {
+        "src": "/assets/optimized/olivera-cerak-20261118-798.webp",
+        "width": 798,
+        "height": 1200,
+        "bytes": 62926
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/partisanpress/adana-press.jpg": {
+    "original_bytes": 395835,
+    "variants": [
+      {
+        "src": "/assets/optimized/partisanpress-adana-press-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 18768
+      },
+      {
+        "src": "/assets/optimized/partisanpress-adana-press-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 44178
+      },
+      {
+        "src": "/assets/optimized/partisanpress-adana-press-1800.webp",
+        "width": 1800,
+        "height": 1197,
+        "bytes": 103340
+      }
+    ],
+    "sizes": "(max-width: 800px) calc(100vw - 40px), 700px"
+  },
+  "/assets/partisanpress/inking-rollers.jpg": {
+    "original_bytes": 312765,
+    "variants": [
+      {
+        "src": "/assets/optimized/partisanpress-inking-rollers-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 13284
+      },
+      {
+        "src": "/assets/optimized/partisanpress-inking-rollers-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 31644
+      },
+      {
+        "src": "/assets/optimized/partisanpress-inking-rollers-1800.webp",
+        "width": 1800,
+        "height": 1197,
+        "bytes": 76030
+      }
+    ],
+    "sizes": "(max-width: 800px) calc(100vw - 40px), 700px"
+  },
+  "/assets/partisanpress/printed-postcard.jpg": {
+    "original_bytes": 274121,
+    "variants": [
+      {
+        "src": "/assets/optimized/partisanpress-printed-postcard-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 11502
+      },
+      {
+        "src": "/assets/optimized/partisanpress-printed-postcard-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 25184
+      },
+      {
+        "src": "/assets/optimized/partisanpress-printed-postcard-1800.webp",
+        "width": 1800,
+        "height": 1200,
+        "bytes": 56948
+      }
+    ],
+    "sizes": "(max-width: 800px) calc(100vw - 40px), 700px"
+  },
+  "/assets/partisanpress/sergey-besov.jpg": {
+    "original_bytes": 571022,
+    "variants": [
+      {
+        "src": "/assets/optimized/partisanpress-sergey-besov-480.webp",
+        "width": 480,
+        "height": 564,
+        "bytes": 10720
+      },
+      {
+        "src": "/assets/optimized/partisanpress-sergey-besov-960.webp",
+        "width": 960,
+        "height": 1129,
+        "bytes": 41628
+      },
+      {
+        "src": "/assets/optimized/partisanpress-sergey-besov-1531.webp",
+        "width": 1531,
+        "height": 1800,
+        "bytes": 136328
+      }
+    ],
+    "sizes": "(max-width: 800px) calc(100vw - 40px), 700px"
+  },
+  "/assets/partisanpress/setting-type.jpg": {
+    "original_bytes": 423859,
+    "variants": [
+      {
+        "src": "/assets/optimized/partisanpress-setting-type-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 21052
+      },
+      {
+        "src": "/assets/optimized/partisanpress-setting-type-960.webp",
+        "width": 960,
+        "height": 638,
+        "bytes": 51360
+      },
+      {
+        "src": "/assets/optimized/partisanpress-setting-type-1800.webp",
+        "width": 1800,
+        "height": 1197,
+        "bytes": 122586
+      }
+    ],
+    "sizes": "(max-width: 800px) calc(100vw - 40px), 700px"
+  },
+  "/assets/tamara-cerak-20261118.jpg": {
+    "original_bytes": 264427,
+    "variants": [
+      {
+        "src": "/assets/optimized/tamara-cerak-20261118-400.webp",
+        "width": 400,
+        "height": 601,
+        "bytes": 32842
+      },
+      {
+        "src": "/assets/optimized/tamara-cerak-20261118-799.webp",
+        "width": 799,
+        "height": 1200,
+        "bytes": 106886
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  },
+  "/assets/workshops/archive-2024-drawing.jpg": {
+    "original_bytes": 194716,
+    "variants": [
+      {
+        "src": "/assets/optimized/workshops-archive-2024-drawing-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 25692
+      },
+      {
+        "src": "/assets/optimized/workshops-archive-2024-drawing-960.webp",
+        "width": 960,
+        "height": 639,
+        "bytes": 66272
+      },
+      {
+        "src": "/assets/optimized/workshops-archive-2024-drawing-1100.webp",
+        "width": 1100,
+        "height": 732,
+        "bytes": 82950
+      }
+    ],
+    "sizes": "(max-width: 900px) calc(100vw - 32px), 430px"
+  },
+  "/assets/workshops/archive-2024-mapping.jpg": {
+    "original_bytes": 196067,
+    "variants": [
+      {
+        "src": "/assets/optimized/workshops-archive-2024-mapping-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 25846
+      },
+      {
+        "src": "/assets/optimized/workshops-archive-2024-mapping-960.webp",
+        "width": 960,
+        "height": 639,
+        "bytes": 67784
+      },
+      {
+        "src": "/assets/optimized/workshops-archive-2024-mapping-1100.webp",
+        "width": 1100,
+        "height": 732,
+        "bytes": 86470
+      }
+    ],
+    "sizes": "(max-width: 900px) calc(100vw - 32px), 430px"
+  },
+  "/assets/workshops/archive-2024-planning.jpg": {
+    "original_bytes": 209235,
+    "variants": [
+      {
+        "src": "/assets/optimized/workshops-archive-2024-planning-480.webp",
+        "width": 480,
+        "height": 319,
+        "bytes": 29128
+      },
+      {
+        "src": "/assets/optimized/workshops-archive-2024-planning-960.webp",
+        "width": 960,
+        "height": 639,
+        "bytes": 76880
+      },
+      {
+        "src": "/assets/optimized/workshops-archive-2024-planning-1100.webp",
+        "width": 1100,
+        "height": 732,
+        "bytes": 95462
+      }
+    ],
+    "sizes": "(max-width: 900px) calc(100vw - 32px), 430px"
+  },
+  "/assets/workshops/partisanpress-inking.jpg": {
+    "original_bytes": 149621,
+    "variants": [
+      {
+        "src": "/assets/optimized/workshops-partisanpress-inking-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 29886
+      },
+      {
+        "src": "/assets/optimized/workshops-partisanpress-inking-900.webp",
+        "width": 900,
+        "height": 600,
+        "bytes": 88034
+      }
+    ],
+    "sizes": "(max-width: 900px) calc(100vw - 32px), 430px"
+  },
+  "/assets/workshops/restoration-process.jpg": {
+    "original_bytes": 179716,
+    "variants": [
+      {
+        "src": "/assets/optimized/workshops-restoration-process-480.webp",
+        "width": 480,
+        "height": 640,
+        "bytes": 55722
+      },
+      {
+        "src": "/assets/optimized/workshops-restoration-process-750.webp",
+        "width": 750,
+        "height": 1000,
+        "bytes": 110220
+      }
+    ],
+    "sizes": "(max-width: 900px) calc(100vw - 32px), 430px"
+  },
+  "/assets/workshops/urban-interventions-wall.jpg": {
+    "original_bytes": 163386,
+    "variants": [
+      {
+        "src": "/assets/optimized/workshops-urban-interventions-wall-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 46562
+      },
+      {
+        "src": "/assets/optimized/workshops-urban-interventions-wall-700.webp",
+        "width": 700,
+        "height": 467,
+        "bytes": 105984
+      }
+    ],
+    "sizes": "(max-width: 900px) calc(100vw - 32px), 430px"
+  },
+  "/assets/ilya-zalivukhin.jpg": {
+    "original_bytes": 333310,
+    "variants": [
+      {
+        "src": "/assets/optimized/ilya-zalivukhin-400.webp",
+        "width": 400,
+        "height": 199,
+        "bytes": 7130
+      },
+      {
+        "src": "/assets/optimized/ilya-zalivukhin-800.webp",
+        "width": 800,
+        "height": 398,
+        "bytes": 18556
+      }
+    ],
+    "sizes": "(max-width: 900px) calc((100vw - 50px) / 2), (max-width: 1380px) calc((100vw - 110px) / 4), 317px"
+  }
+}
