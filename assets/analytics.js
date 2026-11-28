@@ -1,6 +1,7 @@
 /* UrbanFest 2027: registration and outbound link click events for GA4. */
 (() => {
   "use strict";
+  if (!["urbanfestbelgrade.rs", "www.urbanfestbelgrade.rs"].includes(location.hostname)) return;
 
   const registrationFormId = "1slLSATMFyt-E8ZCHkyF-YfPMIX1MEFKwfa-5wL1tldc";
 

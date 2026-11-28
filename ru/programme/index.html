@@ -14,10 +14,12 @@
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-C3VJ0NRSVP');
+  if (['urbanfestbelgrade.rs', 'www.urbanfestbelgrade.rs'].includes(location.hostname)) {
+    gtag('js', new Date());
+    gtag('config', 'G-C3VJ0NRSVP');
+  }
 </script>
-<script src="/assets/analytics.js?v=20261128-funnel" defer></script>
+<script src="/assets/analytics.js?v=20261128-production" defer></script>
 </head>
 <body class="programme-page">
 <header class="event-header"><div class="event-wrap event-head"><a class="event-brand" href="/ru/">URBANFEST</a><nav class="event-nav" aria-label="UrbanFest"><a href="/ru/">Фестиваль</a><div class="event-langs"><a href="/programme/" lang="en" hreflang="en">En</a><a href="/sr/programme/" lang="sr" hreflang="sr">Sr</a><a href="/ru/programme/" lang="ru" hreflang="ru" aria-current="page">Ru</a></div></nav></div></header>

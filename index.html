@@ -57,10 +57,12 @@ footer{background:var(--ink);color:var(--paper);padding:36px 0}.foot{display:gri
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-C3VJ0NRSVP');
+  if (['urbanfestbelgrade.rs', 'www.urbanfestbelgrade.rs'].includes(location.hostname)) {
+    gtag('js', new Date());
+    gtag('config', 'G-C3VJ0NRSVP');
+  }
 </script>
-<script src="/assets/analytics.js?v=20261128-funnel" defer></script>
+<script src="/assets/analytics.js?v=20261128-production" defer></script>
 <link rel="stylesheet" href="/assets/support.css">
 <link rel="stylesheet" href="/assets/figma-theme.css?v=20261127-section-headings">
 <link rel="stylesheet" href="/assets/history.css?v=20261023">
